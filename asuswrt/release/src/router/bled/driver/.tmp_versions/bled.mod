@@ -1,0 +1,2 @@
+/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.ko
+/home/wenxuejin/asuswrt/release/src/router/bled/driver/common.o /home/wenxuejin/asuswrt/release/src/router/bled/driver/check-netdev.o /home/wenxuejin/asuswrt/release/src/router/bled/driver/check-interrupt.o /home/wenxuejin/asuswrt/release/src/router/bled/driver/gpio-mt7620.o /home/wenxuejin/asuswrt/release/src/router/bled/driver/check-mt7620esw.o
