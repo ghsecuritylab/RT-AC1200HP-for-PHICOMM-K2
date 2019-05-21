@@ -36,7 +36,7 @@ sed 's/%@/@@/; s/@%/@@/; s/%g$/@g/; /@g$/s/[\\&%]/\\&/g;
 /^[ 	]*VPATH[ 	]*=[^:]*$/d
 
 s%@SHELL@%/bin/sh%g
-s%@CFLAGS@%-O2 -Wall -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/kernel_header/include  -DRTCONFIG_VPNC%g
+s%@CFLAGS@%-O2 -Wall -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/kernel_header/include  -DRTCONFIG_VPNC%g
 s%@CPPFLAGS@%%g
 s%@CXXFLAGS@%%g
 s%@FFLAGS@%%g

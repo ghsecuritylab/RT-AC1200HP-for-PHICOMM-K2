@@ -27,12 +27,12 @@ uname -v = #31 SMP Fri Nov 30 04:29:02 UTC 2018
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /home/wenxuejin/asuswrt/release/tools
-PATH: /home/wenxuejin/asuswrt/release/src-ra-mt7620/ctools
-PATH: /home/wenxuejin/asuswrt/release/tools
-PATH: /home/wenxuejin/asuswrt/release/src-ra-mt7620/ctools
-PATH: /home/wenxuejin/asuswrt/release/tools
-PATH: /home/wenxuejin/asuswrt/release/src-ra-mt7620/ctools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/tools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/ctools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/tools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/ctools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/tools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/ctools
 PATH: /usr/local/bin
 PATH: /usr/bin
 PATH: /bin
@@ -394,7 +394,7 @@ configure:4566: $? = 0
 configure:4566: result: yes
 configure:4572: checking for _doprnt
 configure:4572: mipsel-uclibc-gcc -o conftest -Os -Wno-error -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644    conftest.c  >&5
-/tmp/ccJKpt0U.o: In function `main':
+/tmp/cckpSRnf.o: In function `main':
 conftest.c:(.text+0x18): undefined reference to `_doprnt'
 collect2: ld returned 1 exit status
 configure:4572: $? = 1
@@ -1172,7 +1172,7 @@ lt_cv_to_tool_file_cmd=func_convert_file_noop
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c/missing aclocal-1.14'
+ACLOCAL='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c/missing aclocal-1.14'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
@@ -1182,9 +1182,9 @@ AM_DEFAULT_V='$(AM_DEFAULT_VERBOSITY)'
 AM_DEFAULT_VERBOSITY='1'
 AM_V='$(V)'
 AR='mipsel-uclibc-ar'
-AUTOCONF='${SHELL} /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c/missing autoconf'
-AUTOHEADER='${SHELL} /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c/missing autoheader'
-AUTOMAKE='${SHELL} /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c/missing automake-1.14'
+AUTOCONF='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c/missing autoconf'
+AUTOHEADER='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c/missing autoheader'
+AUTOMAKE='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c/missing automake-1.14'
 AWK='gawk'
 CC='mipsel-uclibc-gcc'
 CCDEPMODE='depmode=gcc3'
@@ -1220,7 +1220,7 @@ LTLIBOBJS=' ${LIBOBJDIR}memcmp$U.lo'
 MAINT='#'
 MAINTAINER_MODE_FALSE=''
 MAINTAINER_MODE_TRUE='#'
-MAKEINFO='${SHELL} /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c/missing makeinfo'
+MAKEINFO='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c/missing makeinfo'
 MANIFEST_TOOL=':'
 MKDIR_P='/usr/bin/mkdir -p'
 NM='mipsel-uclibc-nm'
@@ -1276,7 +1276,7 @@ host_vendor='unknown'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c/install-sh'
+install_sh='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'

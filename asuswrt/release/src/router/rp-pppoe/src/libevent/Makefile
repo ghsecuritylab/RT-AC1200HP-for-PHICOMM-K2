@@ -12,7 +12,7 @@
 OBJS=event.o event_tcp.o hash.o event_sig.o
 SRCS=$(OBJS:.o=.c)
 HDRS=event.h event_tcp.h eventpriv.h hash.h
-CFLAGS=-g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/kernel_header/include -fno-strict-aliasing -Wall -Wstrict-prototypes -I.. $(DEFINES)
+CFLAGS=-g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/kernel_header/include -fno-strict-aliasing -Wall -Wstrict-prototypes -I.. $(DEFINES)
 AR=ar
 
 all: libevent.a

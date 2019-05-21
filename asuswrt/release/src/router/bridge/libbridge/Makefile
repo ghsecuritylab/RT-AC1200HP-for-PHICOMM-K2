@@ -1,5 +1,5 @@
 
-KERNEL_HEADERS=-I/home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/include
+KERNEL_HEADERS=-I/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/include
 
 AR=ar
 RANLIB=mipsel-uclibc-ranlib

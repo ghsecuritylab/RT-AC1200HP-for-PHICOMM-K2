@@ -81,9 +81,9 @@ phupdate.o phupdate.o: phupdate.c \
   blowfish.h generate.h lutil.h \
   /home/wenxuejin/asuswrt/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/stdlib.h \
   /home/wenxuejin/asuswrt/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/alloca.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/include/bcmnvram.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/include/typedefs.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/include/bcmdefs.h
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/include/bcmnvram.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/include/typedefs.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/include/bcmdefs.h
 
 /home/wenxuejin/asuswrt/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/time.h:
 
@@ -257,8 +257,8 @@ lutil.h:
 
 /home/wenxuejin/asuswrt/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/alloca.h:
 
-/home/wenxuejin/asuswrt/release/src-ra-mt7620/include/bcmnvram.h:
+/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/include/bcmnvram.h:
 
-/home/wenxuejin/asuswrt/release/src-ra-mt7620/include/typedefs.h:
+/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/include/typedefs.h:
 
-/home/wenxuejin/asuswrt/release/src-ra-mt7620/include/bcmdefs.h:
+/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/include/bcmdefs.h:

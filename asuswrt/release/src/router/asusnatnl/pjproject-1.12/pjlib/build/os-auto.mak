@@ -23,7 +23,7 @@ export TEST_OBJS +=	main.o
 #
 # Additional LDFLAGS for pjlib-test
 #
-export TEST_LDFLAGS += -L/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/openssl     -lm -lnsl -lrt -lpthread  -lssl -lcrypto    -lstdc++ -lcrypto -lssl
+export TEST_LDFLAGS += -L/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/openssl     -lm -lnsl -lrt -lpthread  -lssl -lcrypto    -lstdc++ -lcrypto -lssl
 
 #
 # TARGETS are make targets in the Makefile, to be executed for this given

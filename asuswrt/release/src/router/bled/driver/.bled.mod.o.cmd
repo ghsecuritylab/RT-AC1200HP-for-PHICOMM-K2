@@ -1,7 +1,7 @@
-cmd_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := mipsel-uclibc-gcc -Wp,-MD,/home/wenxuejin/asuswrt/release/src/router/bled/driver/.bled.mod.o.d  -nostdinc -isystem /home/wenxuejin/asuswrt/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include -I/home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -D"VMLINUX_LOAD_ADDRESS=0xffffffff80000000" -D"DATAOFFSET=0" -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -ffunction-sections -mno-check-zero-division -mabi=32 -G 0 -mno-abicalls -fno-pic -pipe -msoft-float -ffreestanding -DCONFIG_MIPS_TC3262 -march=mips32r2 -Wa,-mips32r2 -Wa,--trap -I/home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-ralink -I/home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic -fno-stack-protector -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -I/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/shared  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(bled.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(bled)"  -DMODULE -mlong-calls  -c -o /home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o /home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.c
+cmd_/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/bled/driver/bled.mod.o := mipsel-uclibc-gcc -Wp,-MD,/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/bled/driver/.bled.mod.o.d  -nostdinc -isystem /home/wenxuejin/asuswrt/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include -I/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -D"VMLINUX_LOAD_ADDRESS=0xffffffff80000000" -D"DATAOFFSET=0" -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -ffunction-sections -mno-check-zero-division -mabi=32 -G 0 -mno-abicalls -fno-pic -pipe -msoft-float -ffreestanding -DCONFIG_MIPS_TC3262 -march=mips32r2 -Wa,-mips32r2 -Wa,--trap -I/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-ralink -I/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic -fno-stack-protector -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -I/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/shared  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(bled.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(bled)"  -DMODULE -mlong-calls  -c -o /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/bled/driver/bled.mod.o /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/bled/driver/bled.mod.c
 
-deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
-  /home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.c \
+deps_/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/bled/driver/bled.mod.o := \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/bled/driver/bled.mod.c \
     $(wildcard include/config/module/unload.h) \
   include/linux/module.h \
     $(wildcard include/config/symbol/prefix.h) \
@@ -24,11 +24,11 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/types.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/types.h \
     $(wildcard include/config/highmem.h) \
     $(wildcard include/config/64bit/phys/addr.h) \
   include/asm-generic/int-ll64.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/bitsperlong.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
   include/linux/stddef.h \
@@ -41,12 +41,12 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler-gcc4.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/posix_types.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/sgidefs.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/posix_types.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/sgidefs.h \
   include/linux/poison.h \
     $(wildcard include/config/illegal/pointer/value.h) \
   include/linux/prefetch.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/processor.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/processor.h \
     $(wildcard include/config/32bit.h) \
     $(wildcard include/config/cpu/cavium/octeon.h) \
     $(wildcard include/config/cavium/octeon/cvmseg/size.h) \
@@ -69,12 +69,12 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/numa.h) \
   /home/wenxuejin/asuswrt/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/stdarg.h \
   include/linux/linkage.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/linkage.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/linkage.h \
   include/linux/bitops.h \
     $(wildcard include/config/generic/find/first/bit.h) \
     $(wildcard include/config/generic/find/last/bit.h) \
     $(wildcard include/config/generic/find/next/bit.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/bitops.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/bitops.h \
     $(wildcard include/config/cpu/mipsr2.h) \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
@@ -82,10 +82,10 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/irqflags.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/irqflags.h \
     $(wildcard include/config/mips/mt/smtc.h) \
     $(wildcard include/config/irq/cpu.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/hazards.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/hazards.h \
     $(wildcard include/config/cpu/mipsr1.h) \
     $(wildcard include/config/mips/alchemy.h) \
     $(wildcard include/config/cpu/loongson2.h) \
@@ -93,45 +93,45 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/cpu/r5500.h) \
     $(wildcard include/config/cpu/rm9000.h) \
     $(wildcard include/config/cpu/sb1.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cpu-features.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cpu-features.h \
     $(wildcard include/config/cpu/mipsr2/irq/vi.h) \
     $(wildcard include/config/cpu/mipsr2/irq/ei.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cpu.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cpu-info.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cpu.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cpu-info.h \
     $(wildcard include/config/mips/mt/smp.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cache.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cache.h \
     $(wildcard include/config/mips/l1/cache/shift.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/kmalloc.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/kmalloc.h \
     $(wildcard include/config/dma/coherent.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/cpu-feature-overrides.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/barrier.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/cpu-feature-overrides.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/barrier.h \
     $(wildcard include/config/cpu/has/sync.h) \
     $(wildcard include/config/sgi/ip28.h) \
     $(wildcard include/config/cpu/has/wb.h) \
     $(wildcard include/config/weak/ordering.h) \
     $(wildcard include/config/weak/reordering/beyond/llsc.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/bug.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/break.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/break.h \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
     $(wildcard include/config/debug/bugverbose.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/byteorder.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/swab.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/war.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/war.h \
     $(wildcard include/config/cpu/r4000/workarounds.h) \
     $(wildcard include/config/cpu/r4400/workarounds.h) \
     $(wildcard include/config/cpu/daddi/workarounds.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-ralink/war.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-ralink/war.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/ffz.h \
   include/asm-generic/bitops/find.h \
   include/asm-generic/bitops/sched.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/arch_hweight.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/arch_hweight.h \
   include/asm-generic/bitops/arch_hweight.h \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/ext2-non-atomic.h \
@@ -144,7 +144,7 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
   include/linux/dynamic_debug.h \
   include/linux/init.h \
     $(wildcard include/config/hotplug.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/div64.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/div64.h \
   include/asm-generic/div64.h \
   include/linux/threads.h \
     $(wildcard include/config/nr/cpus.h) \
@@ -152,10 +152,10 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
   include/linux/bitmap.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/string.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/string.h \
     $(wildcard include/config/cpu/r3000.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cachectl.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mipsregs.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cachectl.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mipsregs.h \
     $(wildcard include/config/cpu/vr41xx.h) \
     $(wildcard include/config/page/size/4kb.h) \
     $(wildcard include/config/page/size/8kb.h) \
@@ -163,20 +163,20 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/page/size/32kb.h) \
     $(wildcard include/config/page/size/64kb.h) \
     $(wildcard include/config/hugetlb/page.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/prefetch.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/system.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/addrspace.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/prefetch.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/system.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/addrspace.h \
     $(wildcard include/config/cpu/r8000.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/spaces.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/spaces.h \
     $(wildcard include/config/dma/noncoherent.h) \
   include/linux/const.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cmpxchg.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/cmpxchg.h \
   include/asm-generic/cmpxchg-local.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/dsp.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/watch.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/dsp.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/watch.h \
     $(wildcard include/config/hardware/watchpoints.h) \
   include/linux/stat.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/stat.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/stat.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
   include/linux/cache.h \
@@ -192,7 +192,7 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/preempt/notifiers.h) \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/thread_info.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/thread_info.h \
     $(wildcard include/config/debug/stack/usage.h) \
     $(wildcard include/config/mips32/o32.h) \
     $(wildcard include/config/mips32/n32.h) \
@@ -209,7 +209,7 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
   include/linux/spinlock_up.h \
   include/linux/rwlock.h \
   include/linux/spinlock_api_up.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/atomic.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/atomic.h \
   include/asm-generic/atomic64.h \
   include/asm-generic/atomic-long.h \
   include/linux/math64.h \
@@ -240,7 +240,7 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/holes/in/zone.h) \
     $(wildcard include/config/arch/has/holes/memorymodel.h) \
   include/linux/wait.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/current.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/current.h \
   include/asm-generic/current.h \
   include/linux/numa.h \
     $(wildcard include/config/nodes/shift.h) \
@@ -248,15 +248,15 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/generated/bounds.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/page.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/page.h \
     $(wildcard include/config/cpu/mips32.h) \
   include/linux/pfn.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/io.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/io.h \
   include/asm-generic/iomap.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/pgtable-bits.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/pgtable-bits.h \
     $(wildcard include/config/cpu/tx39xx.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/ioremap.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/mangle-port.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/ioremap.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/mangle-port.h \
     $(wildcard include/config/swap/io/space.h) \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/sparsemem/vmemmap.h) \
@@ -266,7 +266,7 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/memory/hotremove.h) \
   include/linux/notifier.h \
   include/linux/errno.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/errno.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/errno.h \
   include/asm-generic/errno-base.h \
   include/linux/mutex.h \
     $(wildcard include/config/debug/mutexes.h) \
@@ -284,12 +284,12 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/need/per/cpu/embed/first/chunk.h) \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/percpu.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/topology.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/topology.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/topology.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/mach-generic/topology.h \
   include/asm-generic/topology.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/virtual.h) \
@@ -304,16 +304,16 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/linux/param.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/param.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/param.h \
   include/asm-generic/param.h \
     $(wildcard include/config/hz.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/timex.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/timex.h \
   include/linux/debugobjects.h \
     $(wildcard include/config/debug/objects.h) \
     $(wildcard include/config/debug/objects/free.h) \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/elf.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/elf.h \
     $(wildcard include/config/mips32/compat.h) \
   include/linux/kobject.h \
   include/linux/sysfs.h \
@@ -333,7 +333,7 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
   include/linux/completion.h \
   include/linux/rcutiny.h \
     $(wildcard include/config/no/hz.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/module.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/module.h \
     $(wildcard include/config/cpu/mips32/r1.h) \
     $(wildcard include/config/cpu/mips32/r2.h) \
     $(wildcard include/config/cpu/mips64/r1.h) \
@@ -346,12 +346,12 @@ deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o := \
     $(wildcard include/config/cpu/r6000.h) \
     $(wildcard include/config/cpu/nevada.h) \
     $(wildcard include/config/cpu/rm7000.h) \
-  /home/wenxuejin/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/uaccess.h \
+  /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/linux/linux-2.6.36.x/arch/mips/include/asm/uaccess.h \
   include/trace/events/module.h \
   include/trace/define_trace.h \
   include/linux/vermagic.h \
   include/generated/utsrelease.h \
 
-/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o: $(deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o)
+/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/bled/driver/bled.mod.o: $(deps_/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/bled/driver/bled.mod.o)
 
-$(deps_/home/wenxuejin/asuswrt/release/src/router/bled/driver/bled.mod.o):
+$(deps_/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/bled/driver/bled.mod.o):

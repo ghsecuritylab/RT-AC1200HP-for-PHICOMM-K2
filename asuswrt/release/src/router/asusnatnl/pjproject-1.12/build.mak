@@ -7,7 +7,7 @@ export TARGET_NAME := mips-unknown-linux-gnu
 export CROSS_COMPILE := mips-linux-
 export LINUX_POLL := select 
 
-export ac_prefix := /home/wenxuejin/asuswrt/release/src/router/asusnatnl/pjproject-1.12/_inst
+export ac_prefix := /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/asusnatnl/pjproject-1.12/_inst
 
 LIB_SUFFIX = $(TARGET_NAME).a
 
@@ -73,11 +73,11 @@ endif
 
 
 # CFLAGS, LDFLAGS, and LIBS to be used by applications
-export PJDIR := /home/wenxuejin/asuswrt/release/src/router/asusnatnl/pjproject-1.12
+export PJDIR := /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/asusnatnl/pjproject-1.12
 export APP_CC := mipsel-uclibc-gcc
 export APP_CXX := mipsel-uclibc-g++
 export APP_CFLAGS := -DPJ_AUTOCONF=1\
-	-I/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/openssl/include  -g -O2 -fPIC -DROUTER=1  -DPJ_IS_BIG_ENDIAN=0 -DPJ_IS_LITTLE_ENDIAN=1\
+	-I/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/openssl/include  -g -O2 -fPIC -DROUTER=1  -DPJ_IS_BIG_ENDIAN=0 -DPJ_IS_LITTLE_ENDIAN=1\
 	-I$(PJDIR)/pjlib/include\
 	-I$(PJDIR)/pjlib-util/include\
 	-I$(PJDIR)/pjnath/include\
@@ -90,7 +90,7 @@ export APP_LDFLAGS := -L$(PJDIR)/pjlib/lib\
 	-L$(PJDIR)/pjmedia/lib\
 	-L$(PJDIR)/pjsip/lib\
 	-L$(PJDIR)/third_party/lib\
-	-L/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/openssl    
+	-L/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/openssl    
 export APP_LDLIBS := -lpjsua-$(TARGET_NAME)\
 	-lpjsip-ua-$(TARGET_NAME)\
 	-lpjsip-simple-$(TARGET_NAME)\
@@ -129,9 +129,9 @@ export PJ_LIB_FILES := $(APP_LIB_FILES)
 
 # And here are the variables to use if application is using the
 # library from the install location (i.e. --prefix)
-export PJ_INSTALL_DIR := /home/wenxuejin/asuswrt/release/src/router/asusnatnl/pjproject-1.12/_inst
+export PJ_INSTALL_DIR := /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/asusnatnl/pjproject-1.12/_inst
 export PJ_INSTALL_INC_DIR := $(PJ_INSTALL_DIR)/include
 export PJ_INSTALL_LIB_DIR := $(PJ_INSTALL_DIR)/lib
-export PJ_INSTALL_CFLAGS := -I$(PJ_INSTALL_INC_DIR) -DPJ_AUTOCONF=1	-I/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/openssl/include  -g -O2 -fPIC -DROUTER=1  -DPJ_IS_BIG_ENDIAN=0 -DPJ_IS_LITTLE_ENDIAN=1
+export PJ_INSTALL_CFLAGS := -I$(PJ_INSTALL_INC_DIR) -DPJ_AUTOCONF=1	-I/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/openssl/include  -g -O2 -fPIC -DROUTER=1  -DPJ_IS_BIG_ENDIAN=0 -DPJ_IS_LITTLE_ENDIAN=1
 export PJ_INSTALL_CXXFLAGS := $(PJ_INSTALL_CFLAGS)
 export PJ_INSTALL_LDFLAGS := -L$(PJ_INSTALL_LIB_DIR) $(APP_LDLIBS)

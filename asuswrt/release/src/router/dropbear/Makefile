@@ -87,10 +87,10 @@ AR=mipsel-uclibc-ar
 RANLIB=mipsel-uclibc-ranlib
 STRIP=mipsel-uclibc-strip -R .note -R .comment
 INSTALL=install
-CPPFLAGS=-Os -Wall -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -DARGTYPE=3 -ffunction-sections -fdata-sections -I/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/mipsel-uclibc/stage/usr/include 		-DSECURITY_NOTIFY
+CPPFLAGS=-Os -Wall -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -DARGTYPE=3 -ffunction-sections -fdata-sections -I/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/mipsel-uclibc/stage/usr/include 		-DSECURITY_NOTIFY
 CFLAGS+=-I. -I$(srcdir) $(CPPFLAGS) -DRTAC1200HP -D__CONFIG_EMF__ -D__CONFIG_WPS__
 LIBS+=-lutil -lptcsrv
-LDFLAGS=-ffunction-sections -fdata-sections -Wl,--gc-sections -L/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/mipsel-uclibc/stage/usr/lib
+LDFLAGS=-ffunction-sections -fdata-sections -Wl,--gc-sections -L/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/mipsel-uclibc/stage/usr/lib
 
 EXEEXT=
 

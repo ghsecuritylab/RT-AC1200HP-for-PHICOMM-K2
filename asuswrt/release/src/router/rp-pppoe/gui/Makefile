@@ -30,7 +30,7 @@ PPPOE_STATUS_PATH=${exec_prefix}/sbin/pppoe-status
 
 PATHS='-DPPPOE_START_PATH="$(PPPOE_START_PATH)"' '-DPPPOE_STOP_PATH="$(PPPOE_STOP_PATH)"' '-DPPPOE_STATUS_PATH="$(PPPOE_STATUS_PATH)"'
 
-CFLAGS= -g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/kernel_header/include -fno-strict-aliasing -Wall -Wstrict-prototypes $(DEFINES) $(PATHS)
+CFLAGS= -g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/kernel_header/include -fno-strict-aliasing -Wall -Wstrict-prototypes $(DEFINES) $(PATHS)
 
 all: pppoe-wrapper
 	@echo ""

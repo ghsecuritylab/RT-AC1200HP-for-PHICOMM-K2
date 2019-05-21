@@ -27,12 +27,12 @@ uname -v = #31 SMP Fri Nov 30 04:29:02 UTC 2018
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /home/wenxuejin/asuswrt/release/tools
-PATH: /home/wenxuejin/asuswrt/release/src-ra-mt7620/ctools
-PATH: /home/wenxuejin/asuswrt/release/tools
-PATH: /home/wenxuejin/asuswrt/release/src-ra-mt7620/ctools
-PATH: /home/wenxuejin/asuswrt/release/tools
-PATH: /home/wenxuejin/asuswrt/release/src-ra-mt7620/ctools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/tools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/ctools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/tools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/ctools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/tools
+PATH: /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/ctools
 PATH: /usr/local/bin
 PATH: /usr/bin
 PATH: /bin
@@ -345,14 +345,14 @@ am_cv_CC_dependencies_compiler_type=gcc3
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run aclocal-1.9'
+ACLOCAL='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run aclocal-1.9'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
-AMTAR='${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run tar'
-AUTOCONF='${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run autoconf'
-AUTOHEADER='${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run autoheader'
-AUTOMAKE='${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run automake-1.9'
+AMTAR='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run tar'
+AUTOCONF='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run autoconf'
+AUTOHEADER='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run autoheader'
+AUTOMAKE='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run automake-1.9'
 AWK='gawk'
 CC='mipsel-uclibc-gcc'
 CCDEPMODE='depmode=gcc3'
@@ -376,7 +376,7 @@ LDFLAGS='-ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC'
 LIBOBJS=''
 LIBS=''
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run makeinfo'
+MAKEINFO='${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run makeinfo'
 OBJEXT='o'
 PACKAGE='netstat-nat'
 PACKAGE_BUGREPORT=''
@@ -409,7 +409,7 @@ host_alias='mipsel-linux'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='/home/wenxuejin/asuswrt/release/src/router/netstat-nat/install-sh'
+install_sh='/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'

@@ -85,7 +85,7 @@ AR_FLAGS="cru"
 LTCC="mipsel-uclibc-gcc"
 
 # LTCC compiler flags.
-LTCFLAGS="-g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/kernel_header/include  -DRTCONFIG_VPNC"
+LTCFLAGS="-g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/kernel_header/include  -DRTCONFIG_VPNC"
 
 # A language-specific compiler.
 CC="mipsel-uclibc-gcc"
@@ -7390,7 +7390,7 @@ AR_FLAGS="cru"
 LTCC="mipsel-uclibc-gcc"
 
 # LTCC compiler flags.
-LTCFLAGS="-g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/kernel_header/include  -DRTCONFIG_VPNC"
+LTCFLAGS="-g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/kernel_header/include  -DRTCONFIG_VPNC"
 
 # A language-specific compiler.
 CC="mipsel-uclibc-g++"

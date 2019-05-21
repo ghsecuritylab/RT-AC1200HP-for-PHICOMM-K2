@@ -442,7 +442,7 @@ Copyright (C) 2009 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/wenxuejin/asuswrt/release/src/router/netstat-nat'
+ac_pwd='/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 AWK='gawk'
@@ -621,19 +621,19 @@ S["CFLAGS"]="-Os -Wall -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-
 S["CC"]="mipsel-uclibc-gcc"
 S["am__untar"]="${AMTAR} xf -"
 S["am__tar"]="${AMTAR} chof - \"$$tardir\""
-S["AMTAR"]="${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run tar"
+S["AMTAR"]="${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run tar"
 S["am__leading_dot"]="."
 S["SET_MAKE"]=""
 S["AWK"]="gawk"
 S["mkdir_p"]="mkdir -p --"
 S["INSTALL_STRIP_PROGRAM"]="${SHELL} $(install_sh) -c -s"
 S["STRIP"]="mipsel-uclibc-strip -R .note -R .comment"
-S["install_sh"]="/home/wenxuejin/asuswrt/release/src/router/netstat-nat/install-sh"
-S["MAKEINFO"]="${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run autoheader"
-S["AUTOMAKE"]="${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run automake-1.9"
-S["AUTOCONF"]="${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run autoconf"
-S["ACLOCAL"]="${SHELL} /home/wenxuejin/asuswrt/release/src/router/netstat-nat/missing --run aclocal-1.9"
+S["install_sh"]="/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/install-sh"
+S["MAKEINFO"]="${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run autoheader"
+S["AUTOMAKE"]="${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run automake-1.9"
+S["AUTOCONF"]="${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run autoconf"
+S["ACLOCAL"]="${SHELL} /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src/router/netstat-nat/missing --run aclocal-1.9"
 S["VERSION"]="1.4.10"
 S["PACKAGE"]="netstat-nat"
 S["CYGPATH_W"]="echo"

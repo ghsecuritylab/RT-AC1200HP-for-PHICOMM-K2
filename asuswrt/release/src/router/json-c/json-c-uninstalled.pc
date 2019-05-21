@@ -1,11 +1,11 @@
 prefix=
 exec_prefix=
-libdir=/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c
-includedir=/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c
+libdir=/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c
+includedir=/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c
 
 Name: json
 Description: JSON implementation in C
 Version: 0.12
 Requires:
-Libs:  -L/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c -ljson-c
-Cflags: -I/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/json-c
+Libs:  -L/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c -ljson-c
+Cflags: -I/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/json-c

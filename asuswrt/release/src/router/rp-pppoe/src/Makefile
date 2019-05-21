@@ -29,7 +29,7 @@ sbindir=${exec_prefix}/sbin
 
 # Plugin for pppd on Linux
 LINUX_KERNELMODE_PLUGIN=rp-pppoe.so
-PPPD_INCDIR=/home/wenxuejin/asuswrt/release/src-ra-mt7620/router/pppd
+PPPD_INCDIR=/home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/pppd
 
 # Licensed version
 LIC_INCDIR=
@@ -58,7 +58,7 @@ PATHS='-DPPPOE_PATH="$(PPPOE_PATH)"' '-DPPPD_PATH="$(PPPD_PATH)"' \
 	'-DPLUGIN_PATH="$(PLUGIN_PATH)"' \
 	'-DPPPOE_SERVER_OPTIONS="$(PPPOESERVER_PPPD_OPTIONS)"'
 
-CFLAGS= -g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/asuswrt/release/src-ra-mt7620/router/kernel_header/include -fno-strict-aliasing -Wall -Wstrict-prototypes $(LIC_INCDIR) $(DEFINES) $(LIC_DEFINE) $(PATHS) -Ilibevent
+CFLAGS= -g -O2 -DLINUX26 -DDEBUG_NOISY -DDEBUG_RCTEST -pipe -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -DLINUX30 -DLINUX_KERNEL_VERSION=132644  -idirafter /home/wenxuejin/GPL_RT-AC1200HP_3.0.0.4.380.8457/asuswrt/release/src-ra-mt7620/router/kernel_header/include -fno-strict-aliasing -Wall -Wstrict-prototypes $(LIC_INCDIR) $(DEFINES) $(LIC_DEFINE) $(PATHS) -Ilibevent
 TARGETS=pppoe pppoe-server pppoe-sniff pppoe-relay rp-pppoe.so
 PPPOE_SERVER_LIBS=$(LIC_LIBDIR) $(LIC_LIB)
 LDFLAGS= 

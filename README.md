@@ -12,7 +12,7 @@ Set Up Environment (I used Deepin 15.10.1)
 	- copy the tools/brcm/ directory to /opt
 	- add /opt/brcm/hndtools-mipsel-linux/bin to your path
 	- add /opt/brcm/hndtools-mipsel-uclibc/bin to your path
-	- copy tools/buildroot-gcc342 directory to /opt
+	- extract tools/buildroot-gcc342.tar.bz2 to /opt
 	- add /opt/buildroot-gcc342/bin to your path
 		    
   3.  build firmware.
