@@ -18,5 +18,4 @@ sudo apt install cmake libncurses5 libncurses5-dev m4 bison gawk flex libstdc++6
   3.  build firmware.
   
   	cd release/src-ra-mt7620
-
 	make rt-ac1200hp
