@@ -18,3 +18,9 @@ Set Up Environment (I used Deepin 15.10.1)
 	    	- copy tools/buildroot-gcc342 directory to /opt
 
 		    - add /opt/buildroot-gcc342/bin to your path
+		    
+  3.  build firmware.
+  
+  	cd release/src-ra-mt7620
+
+	make rt-ac1200hp
